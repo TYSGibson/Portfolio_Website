@@ -1,0 +1,182 @@
+/* For polishing up the page (Responsive design) */
+
+@media screen and (max-width:1280px) {
+
+    .experience_container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .projects_container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .about_details_container {
+        display: flex;
+        flex-wrap: wrap;    
+    }
+
+    .btn_cv, .btn_contact {
+        align-self: center;
+    }
+
+    .btn_container {
+        display:flex;
+    }
+
+    #projects {
+        margin-top: 150px;
+    }
+
+   #contact {
+        margin-top:600px;
+    }
+
+    #experience {
+        margin-top:600px;
+    }
+
+    .arrow_icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .icon_arrow_experience {
+        margin-top: 300px;
+    }
+
+    .text_container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width:1152px) {
+    #contact {
+        display: flex; 
+        justify-content: center; 
+        margin-top: 1300px;     
+
+    }
+}
+
+@media screen and (max-width:810px) {
+
+    #profile {
+        flex-wrap: wrap;
+    }
+
+    #about {
+        margin-top: 400px;
+    }
+
+    .text_container{
+        width: 581px;
+    }
+
+}
+
+@media screen and (max-width:676px) {
+
+    .text_container {
+        font-size: 0.9rem;
+        width:auto;
+        flex-wrap: wrap;  
+    }
+
+    #profile {
+        flex-wrap: wrap;
+        height: fit-content;
+        width:auto;
+    }
+
+    .section_pic-container {
+        width: 300px;
+        height:300px;
+    }
+
+    .section_pic-container img {
+        width: 300px;
+        height:300px;
+    }
+
+    .details_container{
+        flex-wrap: wrap;
+        row-gap: 2rem;
+    }
+
+    #about {
+        margin-top: 100px;
+        margin-bottom: 600px;
+    }
+
+    #projects {
+        margin-top:1200px;
+
+    }
+
+    .project {
+        width:300px;
+    }
+    .project1 {
+        width:300px;
+        height: 300px;
+    }
+
+    #experience {
+        margin-top: 800px;
+    }
+
+    .experience_section1, .experience_section2 {
+        font-size:1rem;
+        display:grid;
+        grid-template-rows: auto auto auto;
+        grid-template-columns: auto;
+        column-gap: 2rem;
+        row-gap: 2rem;
+        justify-content: center;
+
+    }
+
+    .experience_section_container {
+        width:350px;
+    }
+
+    section {
+        margin:0 5%;
+    }
+
+    .contact_info {
+        flex-wrap: wrap;
+    }
+
+    footer {
+        flex-wrap: wrap;
+        height:56vh;
+    }
+
+    .nav-links{
+        font-size: 1rem;
+    }
+
+    .icon_arrow, .icon_arrow_experience {
+        display: none;
+    }
+}
+
+
+
+/* For the hamburger nav */
+@media screen and (max-width:1200px) {
+    #desktop-nav {
+        display: none;
+    }
+
+    #hamburger-nav {
+        display: flex;   
+    }
+}
