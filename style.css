@@ -9,6 +9,7 @@
     padding:0;
 }
 
+
 body{
     font-family: "Poppins", sans-serif;
     flex-wrap: wrap;
@@ -349,10 +350,10 @@ section {
 #experience {
     display: flex;
     flex-direction: column;
-    position: relative;
     margin-top:200px;
     height:1300px;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -434,12 +435,19 @@ section {
     align-items: center ;
 }
 
-.project{
+.project {
     text-align: center;
     row-gap: 5rem;
     border-radius: 2rem;
     border: rgb(53,53,53) 0.1rem solid;
     padding:1.5rem;
+    width:400px;
+    height:720px;
+}
+
+.ind_project_container {
+    width:400px;
+    margin-top:2rem;
 }
 
 .ind_project_container button {
@@ -463,8 +471,9 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height:500px;
-  
+    margin-top: 200px;
+    flex-wrap: wrap;
+
 }
 
 .contact_info {
