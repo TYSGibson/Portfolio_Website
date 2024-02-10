@@ -6,7 +6,7 @@ Thank you for visiting my portfolio website! This website showcases my skills, p
 
 My portfolio website serves as a comprehensive overview of my work. Here's what you can expect to find:
 
-**About Me: **
+**About Me:**
 
 A brief description about me and my experiences and the products and services I provide. Also discover my professional background, including education, work experience, certifications, and any other relevant information
 
